@@ -1,4 +1,3 @@
-
 ## Overview
 
 This module extracts the DAO data from various sources (snapshot, deepdao, covalent) and generates a CSV
@@ -13,22 +12,20 @@ This module extracts the DAO data from various sources (snapshot, deepdao, coval
 
 1. Collect basic DAO information by triggering
 
-
    ```python
    python main.py --mode collect --outfile dao_list.csv
    ```
+
 2. Review the dao_list to update
-    -  Mission and About
-    -  Review and edit categories
-    -  Fill in missing discord links
-    -  Review contract symbol
-    -  Fill in missing contract address
 
-
+   - Mission and About
+   - Review and edit categories
+   - Fill in missing discord links
+   - Review contract symbol
+   - Fill in missing contract address
 
 3. Once curated, rerun the script in expand mode to collect further information
 
-
-    ```python
+   ```python
    python main.py --mode expand --infile dao_list.csv --outfile dao_list_updated.csv
    ```
