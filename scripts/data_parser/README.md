@@ -15,7 +15,7 @@ This module extracts the DAO data from various sources (snapshot, deepdao, coval
 
 
    ```python
-   python main.py --mode collect --out_file dao_list.csv
+   python main.py --mode collect --outfile dao_list.csv
    ```
 2. Review the dao_list to update
     -  Mission and About
@@ -30,5 +30,5 @@ This module extracts the DAO data from various sources (snapshot, deepdao, coval
 
 
     ```python
-   python main.py --mode expand --in_file dao_list.csv --out_file dao_list_updated.csv
+   python main.py --mode expand --infile dao_list.csv --outfile dao_list_updated.csv
    ```
