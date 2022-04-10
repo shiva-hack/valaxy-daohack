@@ -249,9 +249,6 @@ export default function DAODetails() {
         </div> */}
 
           <div className="mx-auto mt-6 max-w-5xl space-y-8 px-4 sm:px-6 lg:px-8">
-            <h3 className="text-lg font-medium leading-6 text-gray-900">
-              Information
-            </h3>
             <div className="overflow-hidden bg-white shadow sm:rounded-lg">
               <div className="px-4 py-5 sm:px-6">
                 <h3 className="text-lg font-medium leading-6 text-gray-900">
